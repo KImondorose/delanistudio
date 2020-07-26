@@ -5,7 +5,12 @@ $('.main').click(function() {
 
 $("button").click (function (omonge){
     var client = document.getElementById('nameDetail').value;
-    alert('Dear ' + client + ','+ 'we have received your message. ' + 'Thank you for reaching out to us. ' +"We will get back to you as soon as possible");
+    alert('Dear ' + client + ','+ 'we have received your message. ' + 'Thank you for reaching out to us. ' +"We will get back to you as soon as possible.");
     omonge.preventDefault();
 });
 
+$("button").on('click', function (){
+    $('form').each(function () {
+        this.reset();
+});
+});
