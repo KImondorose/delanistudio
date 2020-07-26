@@ -109,3 +109,37 @@ h1 {
     max-width: 100%;
     margin-top: 10%;
 }
+
+.footermain {
+    margin-top: 30px;
+}
+
+.form-cont {
+    text-align: center;
+    position: relative;
+    width: 700px;
+    max-width: 100%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+::placeholder,
+.contact {
+    color: #fff;
+}
+::placeholder{
+    font-size: 10px;
+}
+
+contact {
+    padding-bottom: 30px;
+}
+
+.whatwedo {
+    margin-bottom: 30px;
+}
+
+.socialsimages img {
+    border-radius: 50%;
+    transition: 0.2s ease-out;
+}
