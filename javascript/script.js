@@ -14,3 +14,7 @@ $("button").on('click', function (){
         this.reset();
 });
 });
+
+$(".card").hover(function(){
+    $(this).children(".firstcard").fadeToggle(1000, "linear");
+})
