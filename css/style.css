@@ -11,3 +11,33 @@
     padding-top: 14%;
     margin-bottom: 9%;
 }
+
+#head {
+    background-image: url('../images/h_img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+h6 {
+    height: 1vh;
+}
+
+#aboutsection {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.changesize {
+    font-size: 20px;
+}
+
+#aboutsectionsection,
+#service,
+#people,
+.second,
+#contactsection,
+.footer p {
+    font-family: 'Maiden Orange', cursive
+    ;
+}
