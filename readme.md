@@ -66,4 +66,4 @@ rosewairimu1@gmail.com
 
 ### License
 Copyright (c) {2020} **Rose Kimondo**
-[Delani Studio][https://kimondorose.github.io/week2ip/]
+[Delani Studio][https://kimondorose.github.io/delanistudio/]
