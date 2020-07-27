@@ -107,9 +107,7 @@ h6 {
 
 
 
-
-
-.main {
+.hide {
     margin-top: 15%;
 }
 
@@ -119,7 +117,7 @@ h6 {
 
 
 .hidden {
-    display: none;
+    display: block;
     color: black;
 }
 

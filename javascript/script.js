@@ -1,7 +1,4 @@
-$('.main').click(function() {
-    $(this).children ('.show').slideToggle(1200);
-    $(this).children ('.hide').toggle(1500);
-});
+
 
 $("button").click (function (omonge){
     var client = document.getElementById('nameDetail').value;
@@ -18,3 +15,12 @@ $("button").on('click', function (){
 $(".card").hover(function(){
     $(this).children(".firstcard").fadeToggle(1000, "linear");
 })
+
+$('#pictureControlsMenu').click(function(event){
+    event.stopPropagation();
+});
+
+$('.hide').click(function() {
+    $(this).children ('.show').slideToggle(1200);
+    $(this).children ('.hide').toggle(1500);
+});
